@@ -15,20 +15,9 @@ $(function() {
 });
 
 
-$(function() { 
-    $("#reserveButton").click(function(){
-        $("#reserveModal").modal('toggle'); 
-    
-    } 
+$("#reserveButton").click(function(){
+    $("#reserveModal").modal("show");
 });
-
-
-$(function() { 
-    $("#loginButton").click(function(){
-        $("#loginModal").modal('toggle');
-
-    } 
+$("#loginButton").click(function(){
+    $("#loginModal").modal("show");
 });
-
-
-
